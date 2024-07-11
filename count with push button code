@@ -1,0 +1,22 @@
+int f=0;
+
+void setup() {
+  pinMode(D6,INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int x;
+  x=digitalRead(D6);
+  if(x==0)
+  {
+    f=f+1;
+    Serial.print("Count = ");
+    Serial.println(f);
+    while(x==0)
+    {
+      x=digitalRead(D6);
+     delay(50);
+    }
+  } 
+}
