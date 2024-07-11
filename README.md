@@ -20,6 +20,9 @@ To display the count of pushing button on LCD I2C.
 ## CONNECTION
 
 ### LCD16x2 I2C Module Pin Diagram
+
+![ii2c module](https://github.com/JubyJohn/PROJECT-COUNT-DISPLAY-ON-LCD-I2C-/assets/81866407/ce87fad2-f8b7-4882-8bf2-95c83d39b833)
+
  
 <br> VCC = power supply ---->  3V3
 <br> GND = ground          ---->  GND
@@ -27,6 +30,8 @@ To display the count of pushing button on LCD I2C.
 <br> SCL = serial clock line   ---->  D1
 
 ### Push Button Pin Diagram
+
+![push-button-module](https://github.com/JubyJohn/PROJECT-COUNT-DISPLAY-ON-LCD-I2C-/assets/81866407/4f0c693f-9a8d-4e7c-8f7f-9d0767b6df9c)
 
  
 <br> S = Output     ---->  D6
@@ -63,10 +68,20 @@ system
 - lcd.setCursor(c,r) function is used to print on the same column by eliminating previous count number by present count number.
 
 
+## OUTPUT
+
+![IMG_1](https://github.com/JubyJohn/PROJECT-COUNT-DISPLAY-ON-LCD-I2C-/assets/81866407/8d2a48c8-7b36-4aa8-816c-5d2e1fff778c)
+
+![IMG_2](https://github.com/JubyJohn/PROJECT-COUNT-DISPLAY-ON-LCD-I2C-/assets/81866407/5ed34ae1-1911-4f4e-962b-bce3ded62563)
+
+![IMG_3](https://github.com/JubyJohn/PROJECT-COUNT-DISPLAY-ON-LCD-I2C-/assets/81866407/ac6c9d9f-b97c-47ba-8010-4defc9540871)
+
+
+
 ## REFERENCES
 
-LiquidcrystalI2C- library : http://easycoding.tn/index.php/resources/
-LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
+<br> LiquidcrystalI2C- library : http://easycoding.tn/index.php/resources/
+<br> LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
 
 
 
@@ -82,9 +97,4 @@ LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
 
 
  
-OUTPUT
-C:\Users\JUBY JOHN\Desktop\Projects\prjt 1 i2c&push button\images
 
-REFERENCES
-LiquidcrystalI2C- library : http://easycoding.tn/index.php/resources/
-LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
