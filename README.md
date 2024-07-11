@@ -2,7 +2,7 @@
 
 
 ## OVERVIEW
-After completing microcontrollers upto Arduino while doing embedded engineer internship , I try to do implement software in hardware as project aspects. But I failed. Later on I try to do as projects by incorporating two or more sensors with microcontroller.Here I used ESP8266 microcontroller.
+After completing microcontrollers upto Arduino while doing embedded engineer internship , I try to do implement software in hardware as a project aspects. But I failed. Later on I try to do  projects by incorporating two or more sensors with microcontroller.Here I used ESP8266 microcontroller.
 
 
 ## AIM
