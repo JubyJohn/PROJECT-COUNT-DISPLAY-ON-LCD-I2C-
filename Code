@@ -1,0 +1,37 @@
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+int f=0;
+int cnt();
+LiquidCrystal_I2C lcd(0x27,16,2);
+void setup() {
+  pinMode(D6,INPUT);
+  lcd.begin();
+  Serial.begin(9600);
+  lcd.print("Count =");
+  lcd.setCursor(10,0);
+}
+
+void loop() {
+  int s;
+  s=cnt();
+  if(s==1)
+  {
+    f++;
+    lcd.setCursor(10,0);
+    lcd.print(f);
+    Serial.print(f);
+  } 
+}
+
+int cnt()
+{
+  int x=0;
+    while(digitalRead(D6)==0)
+    {
+     delay(50);
+     x=1;
+    }
+  
+  delay(50);
+  return x;
+}
