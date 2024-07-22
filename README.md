@@ -51,14 +51,14 @@ To display the count of pushing button on LCD I2C.
 
 ### Error 1 -   While compiling , a error message keep showing starts with " A fatal esptool.py......." 
 #### How to rectify:
-(1) Make sure Board managers are  updated 
-Update the board packages for ESP8266 through the Arduino IDE. Navigate to Tools > Board > Boards Manager, search for ESP8266 , and click Install or Update if there are newer versions available.
-(2)  Install USB Drivers (if applicable):
-If you're using a development board that requires specific USB drivers (especially for Windows), make sure these drivers are installed correctly. Check the documentation provided with your board.  
-(3)  Reinstall Arduino IDE
-As a last resort, if none of the above steps work, try reinstalling the Arduino IDE. Uninstall it completely, then download and install the latest version from the official Arduino website.       
-(4)  Restart computer
-As a last resort, if none of the above steps work, try restarting the 
+<br> (1) Make sure Board managers are  updated 
+<br> Update the board packages for ESP8266 through the Arduino IDE. Navigate to Tools > Board > Boards Manager, search for ESP8266 , and click Install or Update if there are newer versions available.
+<br> (2)  Install USB Drivers (if applicable):
+<br> If you're using a development board that requires specific USB drivers (especially for Windows), make sure these drivers are installed correctly. Check the documentation provided with your board.  
+<br> (3)  Reinstall Arduino IDE
+<br> As a last resort, if none of the above steps work, try reinstalling the Arduino IDE. Uninstall it completely, then download and install the latest version from the official Arduino website.       
+<br> (4)  Restart computer
+<br> As a last resort, if none of the above steps work, try restarting the 
 system
 ### Error 2 -   Display cleared when nothing is done.
 #### How to rectify:
